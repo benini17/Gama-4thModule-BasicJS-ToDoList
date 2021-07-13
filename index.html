@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/eb8f20800d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>To Do List</header>
+    <form
+      action=""
+      class="container"
+      id="form"
+      autocomplete="off"
+      data-new-list-form
+    >
+      <input
+        type="text"
+        id="input"
+        placeholder="Add what to do here"
+        data-new-list-input
+      />
+      <button id="addBtn"><i class="fas fa-plus-square"></i></button>
+    </form>
+
+    <div class="to-dos" id="toDoContainer">
+      <ul data-lists></ul>
+    </div>
+    <script src="./toDoList.js"></script>
+  </body>
+</html>
