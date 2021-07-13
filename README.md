@@ -104,6 +104,6 @@
   <h2 style="text-decoration: underline;">LICENSE</h2>
   <p>
     This project is MIT licensed - check the
-    <a href="#">LICENSE.md</a> file for more details.
+    <a href="https://github.com/benini17/Gama-4thModule-BasicJS-ToDoList/blob/main/LICENSE">LICENSE.md</a> file for more details.
   </p>
 </div>
